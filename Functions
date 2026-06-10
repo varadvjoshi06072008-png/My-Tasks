@@ -1,0 +1,15 @@
+#include<stdio.h>
+int Sum(int A, int B){
+   return A+B;
+}
+int main(){
+    int A;
+    int B;
+    printf("Enter A");
+    scanf("%d", &A);
+    printf("Enter B");
+    scanf("%d", &B);
+    Sum(A, B);
+    printf("%d\n", Sum(A,B));
+
+}
