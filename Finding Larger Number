@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+int gain[3];
+printf("Tell Values A");
+scanf("%d", &gain[0]);
+printf("Tell Values B");
+scanf("%d", &gain[1]);
+printf("Tell Values C");
+scanf("%d", &gain[2]);
+if(gain[0]>gain[2] && gain[0]>gain[1]){
+    printf("A is bigger");
+}else if(gain[1]>gain[0] && gain[1]>gain[2]){
+   printf("B is bigger ");
+}else if(gain[2]>gain[0] && gain[2]>gain[1] ){
+     printf("C is bigger");
+}
+
+}
