@@ -1,7 +1,22 @@
+// From 1 to 10;
 #include <stdio.h>
 int main()
 {
    for (int A=1; A<=10; A++){
+    printf("%d ", A);
+    if(A % 2==0){
+        printf("Even number\n");
+    }
+    else {
+        printf("Odd Number\n");
+    }
+   }
+}
+// From 10 to 1;
+#include <stdio.h>
+int main()
+{
+   for (int A=10; A>=1; A--){
     printf("%d ", A);
     if(A % 2==0){
         printf("Even number\n");
